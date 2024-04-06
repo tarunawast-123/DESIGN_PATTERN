@@ -1,7 +1,7 @@
-package org.example.Singleton.Factory;
+package org.example.factory.Factories;
 
-import org.example.Singleton.Dish;
-import org.example.Singleton.Pizza;
+import org.example.factory.Dish;
+import org.example.factory.Pizza;
 
 public class PizzaFactory implements DishFactory{
     @Override

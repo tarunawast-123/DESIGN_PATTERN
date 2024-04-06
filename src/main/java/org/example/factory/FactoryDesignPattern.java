@@ -1,12 +1,12 @@
-package org.example.Singleton;
+package org.example.factory;
 
-import org.example.Singleton.Factory.DishFactory;
-import org.example.Singleton.Factory.NoodlesFactory;
-import org.example.Singleton.Factory.PizzaFactory;
+import org.example.factory.Factories.DishFactory;
+import org.example.factory.Factories.NoodlesFactory;
+import org.example.factory.Factories.PizzaFactory;
 
-public class Main {
+public class FactoryDesignPattern {
 
-    public static void main(String[] args) {
+    public void run() {
 
         DishFactory pizzaFactory = new PizzaFactory();
         DishFactory noodlesFactory = new NoodlesFactory();

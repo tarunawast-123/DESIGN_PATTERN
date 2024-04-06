@@ -1,4 +1,4 @@
-package org.example.Singleton;
+package org.example.factory;
 
 public class Noodles implements Dish{
     @Override
