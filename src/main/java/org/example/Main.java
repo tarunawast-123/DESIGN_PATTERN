@@ -3,6 +3,7 @@ package org.example;
 import org.example.Strategy.StrategyDesignPattern;
 import org.example.factory.FactoryDesignPattern;
 import org.example.observer.ObserverDesignPattern;
+import org.example.singleton.SingletonDesignPattern;
 
 public class Main {
     public static void main(String[] args) {
@@ -20,5 +21,10 @@ public class Main {
         ObserverDesignPattern observerDesignPattern =
                 new ObserverDesignPattern();
         observerDesignPattern.run();
+
+        // singleton design pattern
+        SingletonDesignPattern singletonDesignPattern =
+                new SingletonDesignPattern();
+        singletonDesignPattern.run();
     }
 }
