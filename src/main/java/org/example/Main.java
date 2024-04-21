@@ -5,6 +5,7 @@ import org.example.builder.BuilderDesignPattern;
 import org.example.decorator.DecoratorDesignPattern;
 import org.example.factory.FactoryDesignPattern;
 import org.example.observer.ObserverDesignPattern;
+import org.example.prototype.PrototypeDesignPattern;
 import org.example.singleton.SingletonDesignPattern;
 
 public class Main {
@@ -38,5 +39,9 @@ public class Main {
         BuilderDesignPattern builderDesignPattern =
                 new BuilderDesignPattern();
         builderDesignPattern.run();
+
+        PrototypeDesignPattern prototypeDesignPattern =
+                new PrototypeDesignPattern();
+        prototypeDesignPattern.run();
     }
 }

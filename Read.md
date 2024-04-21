@@ -1,6 +1,7 @@
 Creational Design Pattern:
 
-1) Proxy design pattern : 
+1) Prototype design pattern : 
+   It is used when we have to make copy from existing object.
  
 2) Builder design pattern :
   
