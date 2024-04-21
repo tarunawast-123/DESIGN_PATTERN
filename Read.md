@@ -15,3 +15,5 @@ Creational Design Pattern:
 3) factory design pattern
 4) abstract factory: factory of factory
 5) Singleton design pattern: double check locking
+
+![All_Creational_Pattern-1_Screenshot.png](..%2F..%2F..%2FDownloads%2FAll_Creational_Pattern-1_Screenshot.png)
