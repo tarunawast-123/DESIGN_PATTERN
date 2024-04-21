@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.Strategy.StrategyDesignPattern;
+import org.example.builder.BuilderDesignPattern;
 import org.example.decorator.DecoratorDesignPattern;
 import org.example.factory.FactoryDesignPattern;
 import org.example.observer.ObserverDesignPattern;
@@ -32,5 +33,10 @@ public class Main {
         DecoratorDesignPattern decoratorDesignPattern =
                 new DecoratorDesignPattern();
         decoratorDesignPattern.run();
+
+        //Builder Design pattern
+        BuilderDesignPattern builderDesignPattern =
+                new BuilderDesignPattern();
+        builderDesignPattern.run();
     }
 }
