@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.Strategy.StrategyDesignPattern;
+import org.example.abstractFactory.AbstractFactoryDesignPattern;
 import org.example.builder.BuilderDesignPattern;
 import org.example.decorator.DecoratorDesignPattern;
 import org.example.factory.FactoryDesignPattern;
@@ -40,8 +41,14 @@ public class Main {
                 new BuilderDesignPattern();
         builderDesignPattern.run();
 
+        // ProtoType Design Pattern
         PrototypeDesignPattern prototypeDesignPattern =
                 new PrototypeDesignPattern();
         prototypeDesignPattern.run();
+
+        // Abstract Factory Design Pattern
+        AbstractFactoryDesignPattern abstractFactoryDesignPattern =
+                new AbstractFactoryDesignPattern();
+        abstractFactoryDesignPattern.run();
     }
 }
