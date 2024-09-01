@@ -1,13 +1,13 @@
 package org.example;
 
 import org.example.Strategy.StrategyDesignPattern;
-import org.example.abstractFactory.AbstractFactoryDesignPattern;
-import org.example.builder.BuilderDesignPattern;
+import org.example.creational.abstractFactory.AbstractFactoryDesignPattern;
+import org.example.creational.builder.BuilderDesignPattern;
 import org.example.decorator.DecoratorDesignPattern;
-import org.example.factory.FactoryDesignPattern;
+import org.example.creational.factory.FactoryDesignPattern;
 import org.example.observer.ObserverDesignPattern;
 import org.example.prototype.PrototypeDesignPattern;
-import org.example.singleton.SingletonDesignPattern;
+import org.example.creational.singleton.SingletonDesignPattern;
 
 public class Main {
     public static void main(String[] args) {
